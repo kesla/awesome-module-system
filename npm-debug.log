@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.13
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/davidbjorklund/.npm/3a52ce78-.lock
+11 verbose tar pack [ '/Users/davidbjorklund/.npm/require2/0.0.1/package.tgz', '.' ]
+12 verbose tarball /Users/davidbjorklund/.npm/require2/0.0.1/package.tgz
+13 verbose folder .
+14 info prepublish require2@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. /Users/davidbjorklund/.npm/1f1177db-tar.lock
+17 silly lockFile 8356f9a8-d-npm-require2-0-0-1-package-tgz tar:///Users/davidbjorklund/.npm/require2/0.0.1/package.tgz
+18 verbose lock tar:///Users/davidbjorklund/.npm/require2/0.0.1/package.tgz /Users/davidbjorklund/.npm/8356f9a8-d-npm-require2-0-0-1-package-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 8356f9a8-d-npm-require2-0-0-1-package-tgz tar:///Users/davidbjorklund/.npm/require2/0.0.1/package.tgz
+22 silly lockFile 8356f9a8-d-npm-require2-0-0-1-package-tgz tar:///Users/davidbjorklund/.npm/require2/0.0.1/package.tgz
+23 silly lockFile a796b2e2-klund-npm-require2-0-0-1-package /Users/davidbjorklund/.npm/require2/0.0.1/package
+24 verbose lock /Users/davidbjorklund/.npm/require2/0.0.1/package /Users/davidbjorklund/.npm/a796b2e2-klund-npm-require2-0-0-1-package.lock
+25 silly lockFile a796b2e2-klund-npm-require2-0-0-1-package /Users/davidbjorklund/.npm/require2/0.0.1/package
+26 silly lockFile a796b2e2-klund-npm-require2-0-0-1-package /Users/davidbjorklund/.npm/require2/0.0.1/package
+27 silly lockFile 3a52ce78- .
+28 silly lockFile 3a52ce78- .
+29 silly publish { name: 'require2',
+29 silly publish   author: { name: 'David Björklund', email: 'david.bjorklund@gmail.com' },
+29 silly publish   description: 'An alternative module system.',
+29 silly publish   version: '0.0.1',
+29 silly publish   repository: { url: 'git://github.com/kesla/require2.git' },
+29 silly publish   main: 'require2.js',
+29 silly publish   scripts: { test: 'tape test/*.js' },
+29 silly publish   dependencies: {},
+29 silly publish   devDependencies: {},
+29 silly publish   licence: 'MIT',
+29 silly publish   keywords: [],
+29 silly publish   bugs: { url: 'https://github.com/kesla/require2/issues' },
+29 silly publish   homepage: 'https://github.com/kesla/require2',
+29 silly publish   directories: { test: 'test' },
+29 silly publish   license: 'MIT',
+29 silly publish   gitHead: 'e974862a8d28f5f877d422c08152de12fe30607e',
+29 silly publish   readme: 'ERROR: No README data found!',
+29 silly publish   _id: 'require2@0.0.1',
+29 silly publish   _shasum: '493ee4b169dfb7c50a1835f4c3decb3920b3705e',
+29 silly publish   _from: '.' }
+30 verbose url raw require2
+31 verbose url resolving [ 'https://registry.npmjs.org/', './require2' ]
+32 verbose url resolved https://registry.npmjs.org/require2
+33 info trying registry request attempt 1 at 15:22:59
+34 http PUT https://registry.npmjs.org/require2
+35 http 403 https://registry.npmjs.org/require2
+36 verbose headers { date: 'Sun, 08 Jun 2014 19:23:00 GMT',
+36 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=1',
+36 verbose headers   'content-length': '1877',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   'x-served-by': 'cache-jfk1032-JFK',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1402255380.242225,VS0,VE323',
+36 verbose headers   'keep-alive': 'timeout=10, max=50',
+36 verbose headers   connection: 'Keep-Alive' }
+37 error publish Failed PUT 403
+38 error Error: forbidden cannot modify pre-existing version: 0.0.1
+38 error old={"name":"require2","version":"0.0.1","main":"index.js","author":{"name":"박상철","email":"bad79s@lethe.kr"},"repository":{"type":"git","url":"https://github.com/bad79s/require2.git"},"keyword":["require","relative"],"bugs":{"url":"https://github.com/bad79s/require2/issues"},"readme":"ERROR: No README data found!","_id":"require2@0.0.1","dist":{"shasum":"9282a7c97399be22a98ff7080657d1ca5e4f35a4","tarball":"http://registry.npmjs.org/require2/-/require2-0.0.1.tgz"},"_from":".","_npmVersion":"1.3.11","_npmUser":{"name":"bad79s","email":"bad79s@lethe.kr"},"maintainers":[{"name":"bad79s","email":"bad79s@lethe.kr"}]}
+38 error new={"name":"require2","author":{"name":"David Björklund","email":"david.bjorklund@gmail.com"},"description":"An alternative module system.","version":"0.0.1","repository":{"url":"git://github.com/kesla/require2.git"},"main":"require2.js","scripts":{"test":"tape test/*.js"},"dependencies":{},"devDependencies":{},"licence":"MIT","keywords":[],"bugs":{"url":"https://github.com/kesla/require2/issues"},"homepage":"https://github.com/kesla/require2","directories":{"test":"test"},"license":"MIT","gitHead":"e974862a8d28f5f877d422c08152de12fe30607e","readme":"ERROR: No README data found!","_id":"require2@0.0.1","_shasum":"493ee4b169dfb7c50a1835f4c3decb3920b3705e","_from":".","_npmVersion":"1.4.13","_npmUser":{"name":"kesla","email":"david.bjorklund@gmail.com"},"maintainers":[{"name":"kesla","email":"david.bjorklund@gmail.com"}],"dist":{"shasum":"493ee4b169dfb7c50a1835f4c3decb3920b3705e","tarball":"http://registry.npmjs.org/require2/-/require2-0.0.1.tgz"}}: require2
+38 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:274:14)
+38 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:65)
+38 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+38 error     at Request.EventEmitter.emit (events.js:98:17)
+38 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+38 error     at Request.EventEmitter.emit (events.js:117:20)
+38 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+38 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+38 error     at _stream_readable.js:919:16
+38 error     at process._tickCallback (node.js:419:13)
+39 error If you need help, you may report this *entire* log,
+39 error including the npm and node versions, at:
+39 error     <http://github.com/npm/npm/issues>
+40 error System Darwin 13.2.0
+41 error command "node" "/usr/local/bin/npm" "publish"
+42 error cwd /Users/davidbjorklund/Dropbox/projects/require2
+43 error node -v v0.10.28
+44 error npm -v 1.4.13
+45 verbose exit [ 1, true ]

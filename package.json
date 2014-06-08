@@ -1,12 +1,12 @@
 {
-  "name": "require2",
+  "name": "awesome-module-system",
   "author": "David Björklund <david.bjorklund@gmail.com>",
   "description": "An alternative module system.",
   "version": "0.0.0",
   "repository": {
-    "url": "git://github.com/kesla/require2.git"
+    "url": "git://github.com/kesla/awesome-module-system.git"
   },
-  "main": "require2.js",
+  "main": "awesome-module-system.js",
   "scripts": {
     "test": "tape test/*.js"
   },
@@ -15,9 +15,9 @@
   "licence": "MIT",
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/kesla/require2/issues"
+    "url": "https://github.com/kesla/awesome-module-system/issues"
   },
-  "homepage": "https://github.com/kesla/require2",
+  "homepage": "https://github.com/kesla/awesome-module-system",
   "directories": {
     "test": "test"
   },
