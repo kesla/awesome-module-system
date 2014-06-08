@@ -1,0 +1,25 @@
+{
+  "name": "require2",
+  "author": "David Björklund <david.bjorklund@gmail.com>",
+  "description": "An alternative module system.",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/kesla/require2.git"
+  },
+  "main": "require2.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "licence": "MIT",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/kesla/require2/issues"
+  },
+  "homepage": "https://github.com/kesla/require2",
+  "directories": {
+    "test": "test"
+  },
+  "license": "MIT"
+}

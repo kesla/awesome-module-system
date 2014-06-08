@@ -2,7 +2,7 @@
 var fs   = require('fs')
   , path = require('path')
 
-  , cache    = {}
+  , cache = {}
 
   , get = function(fileName) {
       var file = fs.readFileSync(fileName)
