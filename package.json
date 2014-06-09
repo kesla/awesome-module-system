@@ -11,7 +11,9 @@
     "test": "tape test/*.js"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "^2.13.2"
+  },
   "licence": "MIT",
   "keywords": [],
   "bugs": {
