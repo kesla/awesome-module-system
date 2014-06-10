@@ -2,7 +2,7 @@
   "name": "awesome-module-system",
   "author": "David Björklund <david.bjorklund@gmail.com>",
   "description": "An alternative module system.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "url": "git://github.com/kesla/awesome-module-system.git"
   },
