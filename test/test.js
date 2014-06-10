@@ -1,6 +1,6 @@
 
 var test = require('tape')
-var require2 = require('../require2')
+var require2 = require('../awesome-module-system')
 
 test('simple', function(t) {
   var m = require2(__dirname, './module.js')
