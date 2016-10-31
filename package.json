@@ -12,7 +12,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tape": "^2.13.2"
+    "tape": "^4.6.2"
   },
   "licence": "MIT",
   "keywords": [],
